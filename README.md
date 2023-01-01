@@ -4,7 +4,7 @@ A game that tests you on your knowledge about the US states. How many can you gu
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Python</b> 
+- <b>Python</b>
 - <b>Pandas</b>
 - <b>Turtle Graphics</b>
 
@@ -14,8 +14,10 @@ A game that tests you on your knowledge about the US states. How many can you gu
 <br />
 <img src="https://i.ibb.co/NsDXm78/US-states-game.png" height="80%" width="80%" alt="US states game"/>
 <br />
+<img src="https://i.ibb.co/NCnmtSY/US-States-2.png" height="80%" width="80%" alt="US-States-2"/>
 <br />
 </p>
+
 <!--
  ```diff
 - text in red
