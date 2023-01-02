@@ -43,9 +43,19 @@ while len(user_states) < 50:
     except TypeError:
         pass
 
-if len(user_states) > 40:
+if len(user_states) == 50:
     screen.clear()
     loc.goto(0, 0)
-    loc.write("You guessed over 40 states. Congrats! You are a Champ!!", align='center', font=("Courier", 24, "bold"))
+    loc.write("You got it all.\nCongrats! You are a Champ!!", align='center', font=("Courier", 24, "bold"))
+    
+elif len(user_states) > 40:
+    screen.clear()
+    loc.goto(0, 0)
+    loc.write("You guessed over 40 states!\nGreat job!!", align='center', font=("Courier", 24, "bold"))
+
+else:
+    screen.clear()
+    loc.goto(0, 0)
+    loc.write("Better luck next time!", align='center', font=("Courier", 24, "bold"))
 
 screen.exitonclick()
